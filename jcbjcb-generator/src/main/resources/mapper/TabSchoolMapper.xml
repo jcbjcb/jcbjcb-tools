@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jcbjcb.generator.mapper.TabSchoolMapper">
+  <resultMap id="BaseResultMap" type="com.jcbjcb.generator.model.TabSchool">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="title_short" jdbcType="VARCHAR" property="titleShort" />
+    <result column="school_run_id" jdbcType="INTEGER" property="schoolRunId" />
+    <result column="school_type_id" jdbcType="INTEGER" property="schoolTypeId" />
+    <result column="logo" jdbcType="VARCHAR" property="logo" />
+    <result column="img" jdbcType="VARCHAR" property="img" />
+    <result column="rank" jdbcType="INTEGER" property="rank" />
+    <result column="letter" jdbcType="VARCHAR" property="letter" />
+    <result column="school_code" jdbcType="VARCHAR" property="schoolCode" />
+    <result column="province_id" jdbcType="INTEGER" property="provinceId" />
+    <result column="city_id" jdbcType="INTEGER" property="cityId" />
+    <result column="district_id" jdbcType="INTEGER" property="districtId" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="web_url" jdbcType="VARCHAR" property="webUrl" />
+    <result column="collect_num" jdbcType="INTEGER" property="collectNum" />
+    <result column="manual_collect_num" jdbcType="INTEGER" property="manualCollectNum" />
+    <result column="show_flag" jdbcType="TINYINT" property="showFlag" />
+    <result column="del_flag" jdbcType="TINYINT" property="delFlag" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="lon" jdbcType="VARCHAR" property="lon" />
+    <result column="lat" jdbcType="VARCHAR" property="lat" />
+    <result column="audit_flag" jdbcType="TINYINT" property="auditFlag" />
+    <result column="operator_id" jdbcType="INTEGER" property="operatorId" />
+    <result column="creator_id" jdbcType="INTEGER" property="creatorId" />
+    <result column="auditor_id" jdbcType="INTEGER" property="auditorId" />
+    <result column="school_way" jdbcType="INTEGER" property="schoolWay" />
+    <result column="art_flag" jdbcType="INTEGER" property="artFlag" />
+    <result column="sex_ratio_id" jdbcType="INTEGER" property="sexRatioId" />
+    <result column="research_rate" jdbcType="DOUBLE" property="researchRate" />
+    <result column="study_rate" jdbcType="DOUBLE" property="studyRate" />
+    <result column="research_admission_rate" jdbcType="DOUBLE" property="researchAdmissionRate" />
+    <result column="admission_rate" jdbcType="DOUBLE" property="admissionRate" />
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+    <result column="teacher_introduce" jdbcType="LONGVARCHAR" property="teacherIntroduce" />
+    <result column="content_arts" jdbcType="LONGVARCHAR" property="contentArts" />
+  </resultMap>
+</mapper>
