@@ -25,7 +25,7 @@
             <!-- lombok 增加 model 代码生成时，可以直接生成 lombok 的 @Getter@Setter@ToString@Accessors(chain = true) 四类注解， 使用者在插件配置项中增加 <property name="lombok" value="Getter,Setter,ToString,Accessors"/> 即可生成对应包含注解的 model 类。-->
 <!--            <property name="lombok" value="Getter,Setter,ToString,Accessors"/>-->
             <property name="lombok" value="Data"/>
-
+            <property name="swagger" value="true"/>
         </plugin>
 
         <jdbcConnection driverClass="${jdbc.driverClass}"
