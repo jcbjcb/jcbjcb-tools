@@ -3,17 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.jcbjcb.tools</groupId>
+        <artifactId>jcbjcb-tools</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.jcbjcb.common</groupId>
-    <artifactId>jcbjcb-common</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>jcbjcb-common</name>
-    <description>jcbjcb-common</description>
-    <packaging>jar</packaging>
+    <artifactId>jcbjcb-commom</artifactId>
+    <name>jcbjcb-commom</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -61,7 +57,6 @@
             <version>1.18.6</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
     <build>
