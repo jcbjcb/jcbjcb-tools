@@ -13,6 +13,6 @@ import org.springframework.stereotype.Repository;
 */
 @Mapper
 @Repository
-public interface ${tableClass.shortClassName}Mapper extends BaseMapper<${tableClass.shortClassName}> {
+public interface ${tableClass.shortClassName}${mapperSuffix} extends BaseMapper<${tableClass.shortClassName}> {
 
 }

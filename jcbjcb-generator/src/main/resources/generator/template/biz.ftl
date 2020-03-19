@@ -1,7 +1,7 @@
 package ${package};
 
 import com.jcbjcb.tools.common.biz.BaseBiz;
-import ${package?substring(0,package?last_index_of('.'))}.mapper.${tableClass.shortClassName}Mapper;
+import ${package?substring(0,package?last_index_of('.'))}.mapper.${tableClass.shortClassName}${mapperSuffix};
 import ${tableClass.fullClassName};
 import org.springframework.stereotype.Service;
 
@@ -12,6 +12,6 @@ import org.springframework.stereotype.Service;
 * @since  ${dateTime?string["yyyy-MM-dd HH:mm:ss"]}
 */
 @Service
-public class ${tableClass.shortClassName}Biz extends BaseBiz<${tableClass.shortClassName}Mapper, ${tableClass.shortClassName}> {
+public class ${tableClass.shortClassName}${bizSuffix} extends BaseBiz<${tableClass.shortClassName}${mapperSuffix}, ${tableClass.shortClassName}> {
 
 }

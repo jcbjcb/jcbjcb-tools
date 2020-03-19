@@ -1,7 +1,7 @@
 package ${package};
 
 import com.jcbjcb.tools.common.rest.BaseController;
-import ${package?substring(0,package?last_index_of('.'))}.biz.${tableClass.shortClassName}Biz;
+import ${package?substring(0,package?last_index_of('.'))}.biz.${tableClass.shortClassName}${bizSuffix};
 import ${tableClass.fullClassName};
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 */
 @RestController
 @RequestMapping("/${tableClass.variableName}")
-public class ${tableClass.shortClassName}Controller extends BaseController<${tableClass.shortClassName}Biz, ${tableClass.shortClassName}> {
+public class ${tableClass.shortClassName}${controllerSuffix} extends BaseController<${tableClass.shortClassName}${bizSuffix}, ${tableClass.shortClassName}> {
 
 }
