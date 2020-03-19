@@ -1,6 +1,6 @@
 package ${package};
 
-import com.jcbjcb.tools.common.rest.IBaseApi;
+import IBaseApi;
 import org.springframework.cloud.openfeign.FeignClient;
 
 <#assign dateTime = .now>

@@ -1,4 +1,4 @@
-package com.jcbjcb.tools.common.util;
+package com.github.jcbjcb.tools.common.util;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
 package ${package};
 
-import com.jcbjcb.tools.common.mapper.BaseMapper;
+import BaseMapper;
 import ${tableClass.fullClassName};
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;

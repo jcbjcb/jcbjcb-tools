@@ -1,4 +1,4 @@
-package com.jcbjcb.tools.common.rest;
+package com.github.jcbjcb.tools.common.rest;
 
 
 

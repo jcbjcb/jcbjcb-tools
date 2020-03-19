@@ -1,6 +1,6 @@
 package ${package};
 
-import com.jcbjcb.tools.common.biz.BaseBiz;
+import BaseBiz;
 import ${package?substring(0,package?last_index_of('.'))}.mapper.${tableClass.shortClassName}${mapperSuffix};
 import ${tableClass.fullClassName};
 import org.springframework.stereotype.Service;

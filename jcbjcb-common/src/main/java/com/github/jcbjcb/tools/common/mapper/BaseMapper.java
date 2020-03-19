@@ -1,4 +1,4 @@
-package com.jcbjcb.tools.common.mapper;
+package com.github.jcbjcb.tools.common.mapper;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;

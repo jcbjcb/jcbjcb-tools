@@ -1,6 +1,6 @@
-package com.jcbjcb.tools.common.rest;
+package com.github.jcbjcb.tools.common.rest;
 
-import com.jcbjcb.tools.common.util.ObjectRestResponse;
+import com.github.jcbjcb.tools.common.util.ObjectRestResponse;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

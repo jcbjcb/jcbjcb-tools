@@ -1,7 +1,7 @@
-package com.jcbjcb.tools.common.rest;
+package com.github.jcbjcb.tools.common.rest;
 
-import com.jcbjcb.tools.common.util.ObjectRestResponse;
-import com.jcbjcb.tools.common.util.TableRestResponse;
+import com.github.jcbjcb.tools.common.util.ObjectRestResponse;
+import com.github.jcbjcb.tools.common.util.TableRestResponse;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
