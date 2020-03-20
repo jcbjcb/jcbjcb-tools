@@ -77,7 +77,7 @@
             <property name="targetProject" value="src/main/java"/>
             <property name="targetPackage" value="${package.name}.feign"/>
             <property name="templatePath" value="file:src\main\resources\generator/template/feign.ftl"/>
-            <property name="feignSuffix" value="feign"/>
+            <property name="feignSuffix" value="Feign"/>
             <property name="serverId" value="${server.id}"/>
             <property name="fileName" value="${tableClass.shortClassName}${feignSuffix}.java"/>
             <!--默认值是下面这个，可以不配置-->
@@ -92,10 +92,10 @@
                         password="${jdbc.password}">
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.jcbjcb.generator.entity"
+        <javaModelGenerator targetPackage="${package.name}.entity"
                             targetProject="src/main/java"/>
 
-        <sqlMapGenerator targetPackage="mapper"
+        <sqlMapGenerator targetPackage="mapper.business"
                          targetProject="src/main/resources"/>
 
 <!--        <javaClientGenerator targetPackage="com.jcbjcb.generator.mapper"-->
